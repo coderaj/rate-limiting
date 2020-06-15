@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  web1:
+    image: dockercloud/hello-world
+    container_name: web1
+    ports:
+      - "81:80"
+
+  haproxy:
+    image: custom-haproxy
+    container_name: haproxy
+    volumes:
+      - /tmp/etc/haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+    ports:
+      - "80:80"
