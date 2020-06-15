@@ -1,3 +1,7 @@
+This repo is copied from https://leandromoreira.com.br/2019/01/25/how-to-build-a-distributed-throttling-system-with-nginx-lua-redis
+
+Credits to the developer: https://leandromoreira.com/
+
 [![Build Status](https://travis-ci.org/leandromoreira/nginx-lua-redis-rate-measuring.svg?branch=master)](https://travis-ci.org/leandromoreira/nginx-lua-redis-rate-measuring) [![license](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg) [![Coverage Status](https://coveralls.io/repos/github/leandromoreira/nginx-lua-redis-rate-measuring/badge.svg)](https://coveralls.io/github/leandromoreira/nginx-lua-redis-rate-measuring)
 
 # Resty Redis Rate
